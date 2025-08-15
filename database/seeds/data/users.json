@@ -1,0 +1,37 @@
+[
+    {
+        "email": "admin@gmail.com",
+        "password": "$2b$10$p1my0u.Gx7FQIS7g8h1dQ.Qf1DXtOkf1jksm6xJaS.6ZIiaMv4tqS",
+        "first_name": "John",
+        "last_name": "Doe",
+        "role": "ADMIN"
+    },
+    {
+        "email": "purchase.manager@example.com",
+        "password": "$2b$10$K0Gko5ymTukUQ82fYT8B.uaoAoUv73lyd469FhwyUZI5dQtKJeGOK",
+        "first_name": "Alice",
+        "last_name": "Smith",
+        "role": "PURCHASING_MANAGER"
+    },
+    {
+        "email": "supplier@example.com",
+        "password": "$2b$10$Esflu8o/emJLo.yIufcuNOJdpM56szI9WsgcWDeSA4MomJ0gWW/2C",
+        "first_name": "Bob",
+        "last_name": "Johnson",
+        "role": "SUPPLIER"
+    },
+    {
+        "email": "sales.manager@example.com",
+        "password": "$2b$10$Bo7ptWof5pBDYcy4I7rAx.FUCbS9hoNudrTRuR3nvrxP1uQqd0w12",
+        "first_name": "Carol",
+        "last_name": "Williams",
+        "role": "SALES_MANAGER"
+    },
+    {
+        "email": "customer@example.com",
+        "password": "$2b$10$VZP2qQtLSIxhEM8IjoIiWO7yQ8VeIGozRKkkI7qkEd1JcJWkb5O6S",
+        "first_name": "David",
+        "last_name": "Brown",
+        "role": "CUSTOMER"
+    }
+]
