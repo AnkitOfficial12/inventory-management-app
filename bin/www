@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-import { connect } from 'http2';
+// import { connect } from 'http2';
 
 var app = require('../app');
 var http = require('http');
@@ -83,8 +83,16 @@ function onError(error) {
 
 // Listen for database connection
 dbEmitter.on('connected', () => {
-  logger.info('Database connected');
-});
+  logger.info('[EVENT] Database connected');
+}); 
+
+dbEmitter.on('disconnected', () => {
+  logger.info('[EVENT] Database disconnected');
+}); 
+
+dbEmitter.on('error', () => {
+  logger.error('[EVENT] Database error', error);
+}); 
 
 
 /**

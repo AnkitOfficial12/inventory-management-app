@@ -1,6 +1,6 @@
 const knex = require('knex');
-const knexConfig = require('../knexfile');
-const EventEmitter = require('event');
+const knexConfig = require('./knexfile');
+const EventEmitter = require('events');
 const logger = require('../src/helpers/logger');
 
 // Event emitter for database events
