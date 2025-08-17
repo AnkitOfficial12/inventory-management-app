@@ -16,4 +16,13 @@ db.client.pool.on('destroy', () => {
     dbEmitter.emit('disconnected')
 })
 
+// TEST CONNECTION
+// db.raw('select 1+1 as result').then(() => {
+//     logger.info('[DATABASE] connection established');
+// }).catch (err => {
+//     logger.error('[DATABASE] connection failed');
+//     logger.error(err)
+//     dbEmitter.emit('disconnected')
+// })
+
 module.exports = { db, dbEmitter};
