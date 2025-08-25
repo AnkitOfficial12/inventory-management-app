@@ -20,4 +20,9 @@ routes/product.routes.js
 routes/index.js
 middleware/auth.middleware.js
 middleware/rbac.middleware.js
-middleware/validateProduct.middleware.js -- npm i joi (validation library) 
+middleware/validateProduct.middleware.js -- npm i joi (validation library)
+products.model.js
+products.controller.js
+products.module.js --- for update products
+products.controller.js for controller to update products 
+products.routes.js to update routes

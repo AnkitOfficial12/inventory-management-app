@@ -20,7 +20,7 @@ const login = async (req, res) => {
             return errorResponse(res, 'Invalid password', 401)
         }
 
-        const token = jwt.sign({id: user.id, email: user.email, role: user.role}, process.env.JWT_SECRET, {
+        const token = jwt.sign({id: user.id, email: user.email, role: user.role.toUpperCase()}, process.env.JWT_SECRET, {
             expiresIn: '3d'
     });
     return successResponse (res, {token}, 'Login successful');
